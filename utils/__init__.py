@@ -8,7 +8,7 @@ bl_info = {
     "category": "Material",
 }
 
-from utils import ui
+from . import ui
 
 def register():
     ui.register()
