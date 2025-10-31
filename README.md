@@ -63,7 +63,6 @@ You now have a **textured pair** — one base and one remapped variant.
 
 ## 🧠 Example
 <picture><img src = "./LiveVariant.gif" width = 100%></picture>
-*(Example: Yellow → Blue remap applied on a textured mesh)*
 
 ---
 
