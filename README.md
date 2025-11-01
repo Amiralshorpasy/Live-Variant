@@ -2,6 +2,7 @@
 
 **Live Variant Remapper** is a modular ![Blender 4.0+](https://img.shields.io/badge/Blender-4.0%2B-orange?logo=blender) add-on that lets you instantly create **textured, color-remapped duplicates** of your 3D models — ideal for product variants, style tests, and visual experimentation without altering your original mesh.
 
+[![Download Add-on](https://img.shields.io/badge/⬇️%20Download%20Addon-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/Sudhanshu-Ambastha/Live-Variant/releases/download/V-1/LiveVarientRemap.zip)
 ---
 
 ## 🧩 Features
